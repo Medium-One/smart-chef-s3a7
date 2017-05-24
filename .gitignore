@@ -1,0 +1,7 @@
+Debug/
+.module_descriptions/
+jlinklog.txt
+src/synergy_gen/
+synergy/
+synergy_cfg/
+synergy_cfg.txt
