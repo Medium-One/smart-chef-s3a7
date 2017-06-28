@@ -42,6 +42,7 @@ enum {
 
 void m1_initialize_comms(const sf_comms_instance_t * p_sf_comms);
 int m1_initialize_i2c(const sf_i2c_instance_t * p_sf_i2c);
+void m1_initialize_ioport(const ioport_instance_t * p_ioport);
 int m1_handle_message(const char * cloud_driver_command, char * rxBuf);
 
 #endif /* INCLUDE_M1_CLOUD_DRIVER_H_ */
